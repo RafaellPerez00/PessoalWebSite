@@ -1,0 +1,64 @@
+@font-face {
+    font-family: Canter;
+    src: url(fonts/Canter-Bold.woff) format(woff);
+}
+
+header {
+
+    background-color: #00E0FF;
+    border-bottom: 10px solid black;
+    padding: 10px 20px;
+}
+
+.header-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+nav{
+    text-align: right;
+    margin-right: 30px;
+}
+a {
+    align-items: center;
+    color: black;
+    font-family: Canter;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    text-decoration: none;
+    padding-right: 30px;
+}
+
+a::before{
+    content: '';
+    background-color: #00FF94;
+    width: 10px;
+    height: 10px;
+    margin-right: 10px;
+}
+
+span {
+    background-color: #00FF94;
+    width: 10px;
+    height: 10px;
+    margin-right: 10px;
+}
+
+.logo{
+    width: 4%;
+}
+
+
+#button{
+    display: inline-block;
+    background-color: #00FF94 ;
+    box-shadow: 5px 5px 0 black;
+    padding: 10px 15px;
+    transition: transform 100ms linear;
+}
+#button:hover{
+    transform: scale(1.08);
+}
