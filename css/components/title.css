@@ -1,0 +1,20 @@
+#title{
+    font-family: "Alata", san-serif;
+    font-weight: 400;
+    font-style: normal;
+    color:#00FF94;
+    font-size:64px;
+    letter-spacing: 6.4px;
+    line-height: normal;
+    text-shadow: 4px 4px 0px #000;
+}
+
+#subtitle{
+    font-family: "Alata";
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    color: white;
+    text-shadow: 4px 4px 0px #000;
+}

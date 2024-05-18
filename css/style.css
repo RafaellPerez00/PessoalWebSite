@@ -17,7 +17,7 @@ header {
     width: 100%;
 }
 
-nav{
+#nav-header{
     text-align: right;
     margin-right: 30px;
 }
@@ -62,3 +62,9 @@ span {
 #button:hover{
     transform: scale(1.08);
 }
+#imagem{
+    
+    height: 807px;
+    background-color: #3A4042;
+}
+
