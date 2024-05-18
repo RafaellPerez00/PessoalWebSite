@@ -1,0 +1,35 @@
+@font-face {
+    font-family: Canter;
+    src: url(fonts/Canter-Bold.woff) format(woff);
+}
+.button{
+    display: inline-block;
+    background-color: #00FF94 ;
+    box-shadow: 5px 5px 0 black;
+    padding: 10px 15px;
+    transition: transform 100ms linear;
+    font-family: Canter;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    text-decoration: none;
+}
+.button:hover{
+    transform: scale(1.08);
+}
+
+.button_contact{
+    display: inline-block;
+    background-color: #00E0FF ;
+    box-shadow: 5px 5px 0 black;
+    padding: 10px 15px;
+    transition: transform 100ms linear;
+    font-family: Canter;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    text-decoration: none;
+}
+.button_contact:hover{
+    transform: scale(1.08);
+}
