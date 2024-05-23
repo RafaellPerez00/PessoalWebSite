@@ -1,0 +1,53 @@
+@font-face {
+    font-family: Canter;
+    src: url(../../fonts/Canter-Bold.woff) format(woff);
+}
+.skillsBackground{
+    background-color:#00FF94;
+    padding-top: 50px;
+}
+
+.skillList{
+    margin-left: 100px;
+    margin-bottom: 50px;
+    display: flex;
+    align-items: center;
+
+    
+}
+
+.skillList .-title{
+  font-family: Canter;
+  font-size: 84px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+
+.skillList .icon{
+    margin-top:70px;
+    width: 130px;
+    height: 130px;
+    margin-right: 25px;
+    display: flex;
+}
+
+
+progress {
+    -webkit-appearance: none;
+  }
+  
+  ::-webkit-progress-bar {
+    background-color: rgb(255, 255, 255);
+    
+  }
+  ::-webkit-progress-value {
+    background-color:#00E0FF;
+  }
+
+  ::-webkit-progress-inner-element {
+    width: 600px;
+    height: 70px;
+    border: 10px solid black;
+  }

@@ -1,3 +1,8 @@
+#imagem{
+    
+    height: 807px;
+    background-color: #3A4042;
+}
 .banner{
     box-sizing: border-box;
     display: flex;
@@ -25,3 +30,4 @@
     display: flex;
     justify-content: space-around;
 }
+

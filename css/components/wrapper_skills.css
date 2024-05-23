@@ -1,0 +1,10 @@
+.wrapper-skill{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background-color: #00FF94;
+    border-bottom: 10px solid #00E0FF;
+    padding-bottom: 50px;
+}
+
+
+

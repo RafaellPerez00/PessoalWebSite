@@ -1,6 +1,6 @@
 @font-face {
     font-family: Canter;
-    src: url(fonts/Canter-Bold.woff) format(woff);
+    src: url(../../fonts/Canter-Bold.woff) format(woff);
 }
 
 header {
@@ -19,7 +19,7 @@ header {
 #nav-header{
     margin-right: 30px;
 }
-a {
+.options {
     align-items: center;
     color: black;
     font-family: Canter;
@@ -30,14 +30,6 @@ a {
     padding-right: 30px;
 }
 
-
 .logo{
     width: 4%;
 }
-
-#imagem{
-    
-    height: 807px;
-    background-color: #3A4042;
-}
-

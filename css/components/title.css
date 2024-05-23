@@ -28,3 +28,9 @@
     box-shadow: 10px 10px 0px #000;
     padding: 42px 44px;
 }
+
+.title.-second{
+    color:black;
+    text-shadow: none;
+    text-align: center;
+}

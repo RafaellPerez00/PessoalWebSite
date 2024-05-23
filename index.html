@@ -8,11 +8,15 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Alata&display=swap" rel="stylesheet">
 
+        <link rel="stylesheet" href="css/components/header.css">
         <link rel="stylesheet" href="css/components/title.css">
         <link rel="stylesheet" href="css/components/button.css">
-        <link rel="stylesheet" href="css/components/banner.css">  
+        <link rel="stylesheet" href="css/components/banner.css"> 
+        <link rel="stylesheet" href="css/components/skills.css">
+        <link rel="stylesheet" href="css/components/wrapper_skills.css">
+        <link rel="stylesheet" href="css/components/projects.css">
         <link rel="stylesheet" href="css/reset.css">
-        <link rel="stylesheet" href="css/style.css">
+        
 
         
     </head>
@@ -23,12 +27,11 @@
                 <img class='logo' src="assets/img/LOGO_RP.svg" alt="LogoRP">
 
                 <nav id="nav-header"><!-- navigation = navegação do site, tag utilizada para guardar os links de navegação-->            
-                    <a href="" lang="en">Skills</a>
-                    <a href="">Projetos</a>
-                    <a href="">Sobre</a>
-                    <a href="">Contatos</a>
-                    <!--<a class="button" href="" lang="en">Download CV</a>-->
-                    <button class="button" type="button">Download CV</button>
+                    <a class="options" href="" lang="en">Skills</a>
+                    <a class="options" href="">Projetos</a>
+                    <a class="options" href="">Sobre</a>
+                    <a class="options" href="">Contatos</a>
+                    <button class="button" type="button" lang="en">Download CV</button>
                 </nav>
             </div>  
         </header>
@@ -36,16 +39,91 @@
             <div class="wrraper">
                 <div class='box'>
                     <h1 class="title">Rafael Perez</h1>
-                    <h2 class="subtitle">Data Analyst / Developer</h2>
+                    <h2 class="subtitle" lang ="en">Data Analyst / Developer</h2>
                 </div>
                 <div class="navigation">
                     <button class="button" href="" type="button" lang="en">Download CV</button>
                     <button class="button_contact" type="button">Contatos</button>
-                    <!--<a class="button" href="" lang="en">Download CV</a>
-                    <a class="button" href="" >Contatos</a> -->
                 </div>
             </div>
         </section>
+        <section class="skillsBackground">
+            <h2 class="title -second">Skills</h2>
+
+            <div class="wrapper-skill">
+                <article class="skillList">
+                    <img class="icon" src="assets/skillsicons/html_icon.svg" all="Ícone HTML">
+                    <div class="right">
+                        <h2 class="-title">HTML</h2>
+                        <progress class="progressbar" value="50" max="100">50%</progress>
+                    </div>
+                </article>
+                <article class="skillList">
+                    <img class="icon" src="assets/skillsicons/css3_icon.svg" all="Ícone CSS">
+                    <div class="right">
+                        <h2 class="-title">CSS</h2>
+                        <progress class="progressbar" value="50" max="100">50%</progress>
+                    </div>
+                </article>
+                <article class="skillList">
+                    <img class="icon" src="assets/skillsicons/js_icon.svg" all="Ícone JavaScript">
+                    <div class="right">
+                        <h2 class="-title">JavaScript</h2>
+                        <progress class="progressbar" value="25" max="100">25%</progress>
+                    </div>
+                </article>
+                <article class="skillList">
+                    <img class="icon" src="assets/skillsicons/py_icon.svg" all="Ícone python">
+                    <div class="right">
+                        <h2 class="-title">PYTHON</h2>
+                        <progress class="progressbar" value="50" max="100">50%</progress>
+                    </div>
+                </article>
+                <article class="skillList">
+                    <img class="icon" src="assets/skillsicons/flask_icon.svg" all="Ícone Flask">
+                    <div class="right">
+                        <h2 class="-title">Flask</h2>
+                        <progress class="progressbar" value="40" max="100">40%</progress>
+                    </div>
+                </article>
+                <article class="skillList">
+                    <img class="icon" src="assets/skillsicons/api_icon.svg" all="Ícone API">
+                    <div class="right">
+                        <h2 class="-title">API</h2>
+                        <progress class="progressbar" value="25" max="100">25%</progress>
+                    </div>
+                </article>
+                <article class="skillList">
+                    <img class="icon" src="assets/skillsicons/sql_icon.svg" all="Ícone SQL">
+                    <div class="right">
+                        <h2 class="-title">SQL</h2>
+                        <progress class="progressbar" value="50" max="100">50%</progress>
+                    </div>
+                </article>
+                <article class="skillList">
+                    <img class="icon" src="assets/skillsicons/ps_icon.svg" all="Ícone Photoshop">
+                    <div class="right">
+                        <h2 class="-title">Photoshop</h2>
+                        <progress class="progressbar" value="60" max="100">60%</progress>
+                    </div>
+                </article>
+                <article class="skillList">
+                    <img class="icon" src="assets/skillsicons/ia_icon.svg" all="Ícone Illustrator">
+                    <div class="right">
+                        <h2 class="-title">Illustrator</h2>
+                        <progress class="progressbar" value="25" max="100">25%</progress>
+                    </div>
+                </article>
+                <article class="skillList">
+                    <img class="icon" src="assets/skillsicons/figma_icon.svg" all="Ícone Figma">
+                    <div class="right">
+                        <h2 class="-title">Figma</h2>
+                        <progress class="progressbar" value="25" max="100">25%</progress>
+                    </div>
+                </article>
+            </div>
+            
+
         
     </body>
 </html>
