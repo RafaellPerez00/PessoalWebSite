@@ -1,0 +1,28 @@
+.card-project{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#262C33 ;
+    height: 280px;
+    width: 280px;
+    margin: 0;
+    box-shadow:  10px 10px 0px white;
+
+}
+
+.card-project:hover{
+    transform: scale(1.08);   
+}
+
+.projects{
+    padding-top: 50px;
+    padding-bottom: 100px;
+    padding-left: 140px;
+    border-bottom: 10px solid #00FF94;
+    background-color: #000;
+}
+
+.projects .title{
+    color: #fff;
+    text-align: center;
+}
