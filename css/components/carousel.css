@@ -1,0 +1,52 @@
+.carousel{
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    padding-left: 100px;
+    padding-right: 100px;
+    overflow: hidden;
+}
+
+.carousel::after{
+    content:'';
+    position: absolute;
+    top:40px;
+    display: block;
+
+    border:2.5px solid #000;
+    width: 85%;
+    background-color: #000;
+}
+.carousel::before{
+    content:'';
+    position: absolute;
+    top:40px;
+    display: block;
+    border: 2.5px dashed #000;
+    width: 89%;
+}
+.carousel .button-arrow{
+    position: absolute;
+    bottom:80%;
+    transform: translateY(50%);
+
+}
+
+.carousel .button-arrow.-left{
+    left:15px;
+}
+
+.carousel .button-arrow.-right{
+    right: 15px;
+}
+
+.carousel .carousel-card{
+    width: 100%;
+    overflow: hidden;
+}
+
+.carousel .elements{
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 43%;
+}

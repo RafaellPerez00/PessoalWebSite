@@ -6,7 +6,7 @@
 header {
     background-color: #00E0FF;
     border-bottom: 10px solid black;
-    padding: 10px 20px;
+    padding: 10px 13%;
 }
 
 .header-container{
@@ -16,9 +16,7 @@ header {
     width: 100%;
 }
 
-#nav-header{
-    margin-right: 30px;
-}
+
 .options {
     align-items: center;
     color: black;

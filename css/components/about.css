@@ -1,0 +1,103 @@
+@font-face {
+   font-family: Canter;
+   src: url(../../fonts/Canter-Bold.woff) format(woff);
+}
+
+.about{
+   background-color: #00E0FF;
+   border-bottom: 10px solid #000;
+   padding-bottom: 150px;
+}
+
+.about .title{
+   text-align: center;
+   color: #fff;
+   text-shadow: none;
+}
+.description{
+   font-family: Alata;
+   font-size: 30px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: normal;
+   letter-spacing: 3px;
+   padding-left: 13%;
+   padding-right: 13%;
+}
+
+.node-card{
+   display: inline-flex;
+   flex-direction: column;
+   align-items: center;
+   position: relative;
+   padding-right: 60%;
+}
+
+.node-card::before{
+   content:'';
+   position: absolute;
+   bottom: 0;
+   box-sizing: border-box;
+   height: 0px;
+   width: 60px;
+   border:2.5px dashed #000;
+   transform: rotate(90deg) translateX(-62%);
+   bottom:89%;
+}
+
+.about .jobdate{
+   font-family: Canter;
+   font-size: 30px;
+   font-style: normal;
+   font-weight: 700;
+   line-height: normal;
+   margin-bottom: 70px;
+}
+
+.about .logo-job{
+   width: 220px;
+   height: 140px;
+   border: 10px solid #00FF94;
+   background-color: #fff;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.about .descriptionjob{
+   width: 200%;
+   font-family: Alata;
+   font-size: 25px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: normal;
+   margin-top: 20%;
+}
+.about .columjob{
+   column-count: 2;
+   font-size: 20px;
+}
+.about .descjob{
+   font-size: 20px;
+}
+.about .descdate{
+   font-family: Canter;
+   font-size: 30px;
+   font-style: normal;
+   font-weight: 700;
+   line-height: normal;
+}
+.about .logo-skyfix{
+   width:80%;
+}
+
+.about .logo-lumajois{
+   width: 95%;
+}
+
+.about .logo-lps{
+   width: 60%;
+}
+
+.about .logo-thelucio{
+   width: 60%;
+}
