@@ -1,8 +1,7 @@
-.wrapper-skill{
+.wrapper-skills{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    background-color: #00FF94;
-    padding-left: 13%;
+    width:100%;
 }
 
 
