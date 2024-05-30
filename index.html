@@ -18,6 +18,7 @@
         <link rel="stylesheet" href="css/components/wrapper_projects.css">
         <link rel="stylesheet" href="css/components/about.css">
         <link rel="stylesheet" href="css/components/carousel.css">
+        <link rel="stylesheet" href="css/components/form.css">
         <link rel="stylesheet" href="css/components/footer.css">
         <link rel="stylesheet" href="css/reset.css">
         
@@ -31,29 +32,29 @@
                 <img class='logo' src="assets/img/LOGO_RP.svg" alt="LogoRP">
 
                 <nav id="nav-header"><!-- navigation = navegação do site, tag utilizada para guardar os links de navegação-->            
-                    <a class="options" href="" lang="en">Skills</a>
-                    <a class="options" href="">Projetos</a>
-                    <a class="options" href="">Sobre</a>
-                    <a class="options" href="">Contatos</a>
-                    <button class="button" type="button" lang="en">Download CV</button>
+                    <a class="options" href="#skills" lang="en">Skills</a>
+                    <a class="options" href="#projects">Projetos</a>
+                    <a class="options" href="#about">Sobre</a>
+                    <a class="options" href="#contact">Contato</a>
+                    <a href="/download/RESUME.pdf" download class="button" lang="en">Download CV</a>
                 </nav>
             </div>  
         </header>
 
-        <section class="banner">
+        <section id ="banner" class="banner">
             <div class="wrraper">
                 <div class='box'>
                     <h1 class="title">Rafael Perez</h1>
                     <h2 class="subtitle" lang ="en">Data Analyst / Developer</h2>
                 </div>
                 <div class="navigation">
-                    <button class="button" href="" type="button" lang="en">Download CV</button>
-                    <button class="button_contact" type="button">Contatos</button>
+                    <a href="/download/RESUME.pdf" download class="button" lang="en">Download CV</a>
+                    <a href="#contact" class="button_contact" >Contato</a>
                 </div>
             </div>
         </section>
 
-        <section class="skillsBackground">
+        <section id="skills" class="skillsBackground">
             <h2 class="title -second">Skills</h2>
 
             <div class="wrapper-skill">
@@ -130,15 +131,17 @@
             </div>    
         </section>
 
-        <section class="projects">
+        <section id= "projects" class="projects">
             <h2 class="title">Projetos</h2>
             <div class="wrapper-projects">
                 <figure class="card-project">
-                    <img src="assets/img/LOGO_RP_PINK.svg" alt="Logo Pink Version"
+                <a href="#banner">
+                        <img href="#banner" src="assets/img/LOGO_RP_PINK.svg" alt="Logo Pink Version">
+                </a>
                 </figure>
             </div>         
         </section>
-        <section class="about">
+        <section id="about" class="about">
             <h2 class="title">Sobre</h2>
             <p class="description">
                 Sou estudante de Análise e Desenvolvimento de Sistemas com uma longa história de amor pela tecnologia. Desde a minha adolescência, quando consertava computadores e notebooks para ganhar meu próprio dinheiro, até a minha posição atual, onde desenvolvo sistemas para otimizar o processamento e a análise de dados em uma empresa de contabilidade. No caminho, trabalhei com soluções interativas em uma empresa de tecnologia, adquirindo uma experiência diversificada e valiosa. Estou sempre buscando novas formas de utilizar o meu conhecimento, e adquirir novos, para resolver problemas diversos no meio da tecnologia.
@@ -235,6 +238,26 @@
                 </div>
                 <button class="button-arrow -right"><span class="content">Voltar</span></button>
             </section>
+        </section>
+        <section id="contact" class="form">
+            <h2 class="title">Contato</h2>
+            <form action="" method="get" class="form-example">
+                <div class="form-example">
+                    <label for="name" class="title">Nome </label>
+                    <input id="name" type="text" name="name" class="form-input" required />
+                </div>
+                <div class="form-example">
+                    <label for="email" class="title">Email </label>
+                    <input id="email" type="email" name="email" class="form-input" required />
+                </div>
+                <div class="form-example">
+                    <label for="message" class="title">Mensagem </label>
+                    <textarea name="" id="message" cols="30" rows="10" class="form-input -textarea" required></textarea>
+                </div>
+                <div class="form-example">
+                    <input class="enviar" type="submit" value="Enviar" />
+                </div>
+              </form>
         </section>
         <footer class="footer">
             <a  class="footer-icons" href="https://www.linkedin.com/in/rafaellperez/" target="_blank">

@@ -4,7 +4,9 @@
 }
 .skillsBackground{
     background-color:#00FF94;
-    padding-top: 50px;
+    padding-top: 1%;
+    padding-bottom: 3%;
+    border-bottom: 10px solid #00E0FF;
 }
 
 .skillList{
