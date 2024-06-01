@@ -1,0 +1,25 @@
+.radio{
+    cursor: pointer;
+    appearance: none;
+    background-color: #fff;
+    border:5px solid #000;
+    width: 40px;
+    height: 40px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.radio:before{
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: #000;
+    opacity: 0;
+}
+
+.radio:checked:before{
+    opacity: 1;
+}

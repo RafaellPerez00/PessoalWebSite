@@ -65,7 +65,6 @@
    justify-content: center;
 }
 .about .descriptionjob{
-   width: 200%;
    font-family: Alata;
    font-size: 25px;
    font-style: normal;
@@ -75,6 +74,7 @@
 }
 .about .columjob{
    column-count: 2;
+   column-gap: 5%;
    font-size: 20px;
 }
 .about .descjob{
@@ -88,11 +88,11 @@
    line-height: normal;
 }
 .about .logo-skyfix{
-   width:80%;
+   width:50%;
 }
 
 .about .logo-lumajois{
-   width: 95%;
+   width: 80%;
 }
 
 .about .logo-lps{
@@ -101,5 +101,14 @@
 
 .about .logo-thelucio{
    width: 60%;
+}
+
+.about .positiontitle{
+   text-align: center;
+   font-family: Alata;
+   font-size: 25px;
+   font-style: normal;
+   font-weight: bold;
+   line-height: normal;
 }
 
