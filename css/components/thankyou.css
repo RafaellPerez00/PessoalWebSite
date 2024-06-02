@@ -1,0 +1,21 @@
+body{
+    background-color: #00FF94;
+}
+
+.thankyou{
+    font-family: Alata;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: normal;
+    margin-top: 20%;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.thankyoulogo{
+    height: 40px;
+}

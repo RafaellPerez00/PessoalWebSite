@@ -41,6 +41,11 @@
 }
 
 .form .form-input{
+    font-family: Alata;
+    font-size: 5px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
     box-sizing: border-box;
     width: 100%;
     font-size: 30px;
